@@ -8,7 +8,7 @@ nav{
 /* COMMON   shared styels */
 body{
     font-family: 'Lato', sans-serif;
-font-family: 'Open Sans', monospace;
+/* font-family: 'Open Sans', monospace; */
 }
 .nav_title{
     color: #181818;
@@ -78,5 +78,70 @@ nav a {
 }
 .banner-contant{
     max-width: 500px;
+}
+
+/* about section */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background:#fff8f3;
+    margin: 130px 0;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+}
+.about-info{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* about section end */
+/* main section  */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+}
+/* what i do section  */
+.what-section-description{
+    padding: 30px 150px;
+}
+/* skill related styles  */
+.skill-container{
+    display: flex;
+    gap: 24px;
+    /* background-color: #181818; */
+}
+.skill{
+    padding:30px;
+    /* margin: 10px; */
+    border-radius: 20px;
+    /* box-shadow:  0px 6px 50px 0px rgba(0, 0, 0, 0.06) */
+    background-color: rgb(40, 120, 191);
+    color: white;
+    /* font-family:'Courier New', Courier, monospace; */
+}
+.skill-description{
+    /* padding: 30px; */
+}
+
+/* resume section */
+.resume-container{
+    display: flex;
+    
+
 }
 
