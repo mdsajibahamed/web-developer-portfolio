@@ -48,9 +48,10 @@ nav a {
 /* header related styles */
 .header{
     background-color: #fff8f3;
-    background-image: url(../images/header_bg.png);
+    background-image: url(../images/header_bg.png),url(../images/developer.png);
     background-repeat: no-repeat;
-    background-position:bottom right;
+    background-position:bottom right, top left;
+    height: 800px;
 
 }
 .banner{
@@ -64,6 +65,7 @@ nav a {
 }
 .banner .profile-ficture{
     width: 500px;
+   
 
 }
 .banner-greeting{
@@ -111,6 +113,8 @@ nav a {
 main{
     max-width: 1140px;
     margin: 0 auto;
+    border: 1px solid greenyellow;
+    
 }
 main section{
     margin-top: 130px;
@@ -141,7 +145,66 @@ main section{
 /* resume section */
 .resume-container{
     display: flex;
-    
+    gap: 50px;
 
 }
+.resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-item-institute, .resume-item-description{
+    color: #757575;
+    
+}
+.resume-item-institute{
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+.resume-title{
+    color: #757575;
+    font-size: 25px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.resume-container hr{
+    margin: 30px;
+}
+
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* footer section styles  */
+footer{
+    display: flex;
+    background: #FFF8F3;
+    padding: 130px;
+    margin-top: 100px;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+    text-align: center;
+
+}
+.contact input[type="text"], .contact input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 35px;
+    color:#757575;
+    border-radius: 5px;
+    background: #FFF;
+    border: 0px;
+   width: 100%;
+}
+.social-link a{
+    margin-right: 30px;
+}
+.btn{
+    padding-left: 100px;
+}
+
+
 
